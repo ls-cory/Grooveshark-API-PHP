@@ -41,7 +41,7 @@ class Payload {
 		}
 		curl_setopt($c, CURLOPT_SSL_VERIFYPEER, 1);
 		curl_setopt($c, CURLOPT_TIMEOUT, 10);
-		curl_setopt($c, CURLOPT_USERAGENT, 'fastest963-GSAPI-PHP');
+		curl_setopt($c, CURLOPT_USERAGENT, 'ckdarby/Grooveshark-API-PHP');
 		curl_setopt($c, CURLOPT_POST, 1);
 		curl_setopt($c, CURLOPT_POSTFIELDS, $postData);
 		$result = curl_exec($c);
